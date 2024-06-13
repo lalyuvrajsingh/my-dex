@@ -10,16 +10,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@truffle/hdwallet-provider": "^2.1.15",
     "axios": "^0.21.1",
     "ethers": "^5.0.0",
+    "next": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "next": "^10.0.0",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "solc": "^0.8.20"
   },
   "devDependencies": {
-    "tailwindcss": "^2.1.2",
     "autoprefixer": "^10.2.5",
-    "postcss": "^8.3.0"
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2"
   }
 }
